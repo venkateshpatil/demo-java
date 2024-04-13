@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Devops -Dsonar.projectName='Devops'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:3.10.0.2131:sonar -Dsonar.projectKey=Devops -Dsonar.projectName='Devops'
