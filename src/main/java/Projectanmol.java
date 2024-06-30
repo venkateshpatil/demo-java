@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 
-public class project-anmol {
+public class Projectanmol{
     public static void main(String[] args) throws IOException {
         int serverPort = 8000; // Port number for the server to listen on
         HttpServer server = HttpServer.create(new InetSocketAddress(serverPort), 0);
